@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\WebExpress.Tutorial.HelloWorld\src\HelloWorld\WebExpress.Tutorial.HelloWorld.csproj" />
+    <ProjectReference Include="..\..\..\WebExpress.Tutorial.WebApp\src\WebApp\WebExpress.Tutorial.WebApp.csproj" />
+    <ProjectReference Include="..\..\..\WebExpress.Tutorial.WebIndex\src\WebIndex\WebExpress.Tutorial.WebIndex.csproj" />
+    <ProjectReference Include="..\..\..\WebExpress.Tutorial.WebUI\src\WebUI\WebExpress.Tutorial.WebUI.csproj" />
+    <ProjectReference Include="..\..\..\WebExpress.WebApp\src\WebExpress.WebApp\WebExpress.WebApp.csproj" />
+    <ProjectReference Include="..\..\..\WebExpress.WebCore\src\WebExpress.WebCore\WebExpress.WebCore.csproj" />
+    <ProjectReference Include="..\..\..\WebExpress.WebIndex\src\WebExpress.WebIndex\WebExpress.WebIndex.csproj" />
+    <ProjectReference Include="..\..\..\WebExpress.WebUI\src\WebExpress.WebUI\WebExpress.WebUI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Config\webexpress.config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

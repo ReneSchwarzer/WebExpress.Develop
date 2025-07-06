@@ -16,8 +16,23 @@ The `WebExpress` family includes the following projects:
 - [WebExpress.WebIndex](https://github.com/ReneSchwarzer/WebExpress.WebIndex#readme) - Reverse index for `WebExpress` applications.
 - [WebExpress.WebApp](https://github.com/ReneSchwarzer/WebExpress.WebApp#readme) - Business application template for `WebExpress` applications.
 
-# WebExpress.WebUI
-`WebExpress.WebUI` is part of the WebExpress family. It provides templates and controls that standardize and facilitate the creation of web pages.
+# WebExpress.Develop
+This repository provides a centralized, all-in-one development environment for the WebExpress ecosystem. It brings together all necessary projects through direct references, removing any reliance on NuGet packages.
+
+## Recommended folder structure
+To ensure that all project references resolve correctly and that the solution builds as intended, make sure all required `WebExpress` repositories are placed within the same base directory as `WebExpress.Develop`.
+```
+base/ 
+ ├── WebExpress.Develop/ 
+ ├── WebExpress.WebCore/ 
+ ├── WebExpress.WebUI/ 
+ ├── WebExpress.WebIndex/ 
+ ├── WebExpress.WebApp/ 
+ └── ...
+```
+
+## Build configuration
+In Visual Studio (or your build tool of choice), select the `DebugLocal` configuration. This activates conditional project references defined in the `.csproj` files, enabling local development with direct project dependencies rather than NuGet packages.
 
 # Download 
 The current binaries are available for download [here](https://github.com/ReneSchwarzer/WebExpress/releases).
