@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExpress.WebCore", "..\..\WebExpress.WebCore\src\WebExpress.WebCore\WebExpress.WebCore.csproj", "{12A97BC5-7BBF-6513-A4E0-BDBED2290177}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExpress.WebCore.Test", "..\..\WebExpress.WebCore\src\WebExpress.WebCore.Test\WebExpress.WebCore.Test.csproj", "{702DF13F-B5A3-F057-402F-3F8717ADEFDF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExpress.WebUI", "..\..\WebExpress.WebUI\src\WebExpress.WebUI\WebExpress.WebUI.csproj", "{59791C9A-E0C0-0BF5-737F-B9C4ED399AD0}"
@@ -29,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExpress.Tutorial.WebInde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExpress.Tutorial.WebApp", "..\..\WebExpress.Tutorial.WebApp\src\WebApp\WebExpress.Tutorial.WebApp.csproj", "{2C36502A-1B99-F2BC-FBDE-6500A8C542F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExpress.WebCore", "..\..\WebExpress.WebCore\src\WebExpress.WebCore\WebExpress.WebCore.csproj", "{12A97BC5-7BBF-6513-A4E0-BDBED2290177}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,12 +36,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.DebugLocal|Any CPU.ActiveCfg = DebugLocal|Any CPU
-		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.DebugLocal|Any CPU.Build.0 = DebugLocal|Any CPU
-		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.Release|Any CPU.Build.0 = Release|Any CPU
 		{702DF13F-B5A3-F057-402F-3F8717ADEFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{702DF13F-B5A3-F057-402F-3F8717ADEFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{702DF13F-B5A3-F057-402F-3F8717ADEFDF}.DebugLocal|Any CPU.ActiveCfg = DebugLocal|Any CPU
@@ -114,6 +108,12 @@ Global
 		{2C36502A-1B99-F2BC-FBDE-6500A8C542F5}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{2C36502A-1B99-F2BC-FBDE-6500A8C542F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C36502A-1B99-F2BC-FBDE-6500A8C542F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.DebugLocal|Any CPU.ActiveCfg = DebugLocal|Any CPU
+		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.DebugLocal|Any CPU.Build.0 = DebugLocal|Any CPU
+		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A97BC5-7BBF-6513-A4E0-BDBED2290177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
