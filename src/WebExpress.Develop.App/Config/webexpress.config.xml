@@ -2,7 +2,7 @@
 <config version="1">
 
     <!-- Logging settings mode=[Off|Override|Append], debug=[true|false]-->
-	<log modus="Override" debug="false" path="/var/log/" encoding="utf-8" filename="webexpress.log" timepattern="dd.MM.yyyy HH:mm:ss" />
+	<log modus="Off" debug="false" path="/var/log/" encoding="utf-8" filename="webexpress.log" timepattern="dd.MM.yyyy HH:mm:ss" />
 
 	<endpoint uri="http://localhost/"/>
 
