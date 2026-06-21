@@ -6,10 +6,10 @@
 
 	<endpoint uri="http://localhost/"/>
 
-	<limit>
-		<connectionlimit>300</connectionlimit>
-		<uploadlimit>3000000000</uploadlimit>
-	</limit>
+	<kestrel>
+		<maxconcurrentconnections>300</maxconcurrentconnections>
+		<maxrequestbodysize>3000000000</maxrequestbodysize>
+	</kestrel>
 
 	<culture>en-US</culture>
 
