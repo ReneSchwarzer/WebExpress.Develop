@@ -9,6 +9,7 @@
 	<kestrel>
 		<maxconcurrentconnections>300</maxconcurrentconnections>
 		<maxrequestbodysize>3000000000</maxrequestbodysize>
+		<maxrequestheaderstotalsize>65536</maxrequestheaderstotalsize>
 	</kestrel>
 
 	<culture>en-US</culture>
