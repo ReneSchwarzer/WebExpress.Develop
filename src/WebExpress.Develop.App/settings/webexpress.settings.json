@@ -25,6 +25,19 @@
       "MaxRequestHeadersTotalSize": 65536
     },
 
+    // development only: this public signing key and HTTP setting are shared through git
+    // production must use a private random key, require HTTPS, and set deployment-specific values
+    "Authentication": {
+      "Issuer": "http://localhost",
+      "Audience": "webexpress-development",
+      "SigningKey": "V2ViRXhwcmVzcy1EZXZlbG9wbWVudC1Pbmx5LUtleSEh",
+      "RequireHttps": false,
+      "TokenStorePath": "./data/authentication",
+      "AccessTokenLifetime": "00:05:00",
+      "RefreshTokenLifetime": "7.00:00:00",
+      "MaximumPersonalAccessTokenLifetime": "90.00:00:00"
+    },
+
     "Culture": "en-US",
 
     "PackagePath": "./packages",
