@@ -10,13 +10,14 @@ internal class Program
     /// The entry point of the WebExpress.
     /// </summary>
     /// <param name="args">Command-line arguments passed to the application.</param>
-    private static void Main(string[] args)
+    /// <returns>The exit code, not zero when the application could not start.</returns>
+    private static int Main(string[] args)
     {
         var app = new WebEx()
         {
             Name = Assembly.GetExecutingAssembly().GetName().Name
         };
 
-        app.Execution(args);
+        return app.Execution(args);
     }
 }
