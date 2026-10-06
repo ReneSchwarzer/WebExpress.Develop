@@ -38,6 +38,11 @@
       "MaximumPersonalAccessTokenLifetime": "90.00:00:00"
     },
 
+    // enable email administration in the tutorial host
+    "Email": {
+      "Enabled": true
+    },
+
     "Culture": "en-US",
 
     "PackagePath": "./packages",
