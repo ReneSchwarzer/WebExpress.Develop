@@ -32,6 +32,9 @@
   </Project>
   <Project Path="../../WebExpress.WebUI/src/WebExpress.WebUI.Test/WebExpress.WebUI.Test.csproj" />
   <Project Path="../../WebExpress.WebUI/src/WebExpress.WebUI/WebExpress.WebUI.csproj" />
+  <Project Path="../../WebExpress/src/WebExpress/WebExpress.csproj">
+    <BuildType Solution="DebugLocal|*" Project="Debug" />
+  </Project>
   <Project Path="WebExpress.Develop.App/WebExpress.Develop.App.csproj">
     <BuildType Solution="DebugLocal|*" Project="Debug" />
   </Project>
